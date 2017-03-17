@@ -1,0 +1,34 @@
+---
+layout: home
+main_image: /uploads/hero.jpg
+---
+{% assign settings = settings.data.settings %}
+<nav id="menu">
+    {% include menu.html %}
+</nav>
+<main id="panel">
+<div class="wrapper">
+  <div class="navigation">
+  <div class="nav-wrapper">
+    <a href="#" class="logo"><img src="http://www.fbgnt.de/themes/bob/images/logo.png" alt=""></a>
+    
+    <ul class="desktop-links">
+      <li><a href="#">Start</a></li>
+      <li><a href="#">Warum?</a></li>
+      <li><a href="#">Evangelium</a></li>
+      <li><a href="#">Leitung</a></li>
+      <li><a href="#">Glaube</a></li>
+    </ul><!--/desktop-links-->
+    <a class="toggle-button" href="#"><em>MENU</em> <span class="fa-stack fa-lg">
+  <i class="fa fa-circle fa-stack-2x"></i>
+  <i class="fa fa-bars fa-stack-1x fa-inverse"></i>
+</span>
+    </a><!--/mobile-links-->
+    </div><!--/nav-wrapper-->
+  </div><!--/.navigation-->
+  <div class="hero" style="background: url({{page.main_image}}) no-repeat center center; background-size: cover;"">
+    
+  </div><!--/hero-->
+{% include footer.html %}
+</div><!--/wrapper-->
+</main><!--/#panel-->
