@@ -19,16 +19,50 @@ main_image: /uploads/hero.jpg
       <li><a href="#">Leitung</a></li>
       <li><a href="#">Glaube</a></li>
     </ul><!--/desktop-links-->
-    <a class="toggle-button" href="#"><em>MENU</em> <span class="fa-stack fa-lg">
-  <i class="fa fa-circle fa-stack-2x"></i>
-  <i class="fa fa-bars fa-stack-1x fa-inverse"></i>
-</span>
-    </a><!--/mobile-links-->
+    <a class="toggle-button button" href="#"><i class="fa fa-bars"></i> MENU </a><!--/mobile-links-->
     </div><!--/nav-wrapper-->
   </div><!--/.navigation-->
-  <div class="hero" style="background: url({{page.main_image}}) no-repeat center center; background-size: cover;"">
-    
+  <div class="hero" style="background: url({{page.main_image}}) no-repeat center center; background-size: cover;">
+      <div class="headerHero editable">
+        <h2>Jesus im Mittelpunkt</h2>
+        <p>Die Freie Baptisten Gemeinde ist eine neue bibeltreue Gemeinde in Neutraubling, wo Gottes Wort gepredigt wird und Jesus im Mittelpunkt ist.</p>
+      </div><!--/header-hero-->
   </div><!--/hero-->
+  <div class="intro-bar">
+  <div class="main-intro editable">
+    <h3>Es gibt eine bibeltreue Gemeinde in Neutraubling!</h3>
+    <p>Im Zentrum von Neutraubling findet man unsere Gemeinde in der Waldenburgerstr. 9.</p>
+    <p>Wir treffen uns für den Gottesdienst jeden Sonntag um 10.00 Uhr, und am Donnerstag um 18.30 Uhr treffen wir uns für unsere Bibelstunde. Es gibt eine Kinderbetreuung für beide Tage!</p>
+    <p>Wir freuen uns auf Ihren Besuch!</p>
+  </div><!--/main-intro-->
+  <div class="email-form">
+    <h3 class="editable">Falls Sie Information über uns erhalten wollen, melden Sie sich bitte hier an:</h3>
+    <!-- Begin MailChimp Signup Form -->
+    <form action="//online.us15.list-manage.com/subscribe/post?u=d273b8ec5bd148b8b5db55c8b&amp;id=6c9b8f1d09" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+      <div id="mc_embed_signup_scroll">
+    <input type="text" value="" name="NAME" class="name" id="mce-NAME" placeholder="Name" required>
+    <input type="tel" value="" name="TEL" class="tel" id="mce-TEL" placeholder="Telefon" required>
+    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="E-Mail" required>
+      <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+      <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_d273b8ec5bd148b8b5db55c8b_6c9b8f1d09" tabindex="-1" value=""></div>
+      <div class="clear"><input type="submit" value="Absenden" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+      </div>
+  </form>
+  <a href="#" class="facebook"><i class="fa fa-facebook-square"></i> Finde uns auf Facebook</a> 
+    <!--End mc_embed_signup-->
+  </div><!--/email-form-->
+  </div><!--/intro-bar-->
+  {% include map.html %}
+  <div class="main-text">
+    <div class="grube editable">
+      <h3>Grüße von dem Pastor</h3>
+      <p>Hallo! Danke für Ihr Interesse an unserer Gemeinde! Freie Baptisten Gemeinde – Neutraubling ist ein Ort, wo man die Wahrheit im Leibe hören kann. Es gibt viele Ansichten über Gott und unsere Ziele im Leben. Jedoch sind wir in unserer Gemeinde dankbar, dass unsere Ansichten nicht von einer Person oder einer Organisation kommen, sondern nur von Gottes Wort. Es ist klar, dass wir nicht perfekt sind (niemand könnte, oder?), aber unser Maßstab ist Gottes Wort, und wir sind aufgefordert, Gottes Wort zu predigen und zu gehorchen. Wir wollen, dass Ihre Erfahrungen mit uns, angenehm und gesegnet sind! Wir würden uns um so mehr freuen, wenn wir die Möglichkeit hätten, Sie näher kennenzulernen!</p>
+      <p>Immer für Gottes Ehre,</p>
+      <p>Bob Radank, Pastor </p>
+      <p><em>Denn Gott, der dem Licht gebot, aus der Finsternis hervorzuleuchten, er hat es auch in unseren Herzen licht werden lassen, damit wir erleuchtet werden mit der Erkenntnis der Herrlichkeit Gottes im Angesicht Jesu Christi.</em> - <strong>2. Korinther 4, 6</strong></p>
+      <hr>
+    </div><!--/grube-->
+  </div><!--/main-text-->
 {% include footer.html %}
 </div><!--/wrapper-->
 </main><!--/#panel-->

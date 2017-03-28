@@ -1,0 +1,49 @@
+.intro-bar
+    background-color: #213444
+    color: #ffffff
+    padding: 30px
+    display: flex
+    flex-direction: column
+    +breakpoint(935px)
+        flex-direction: row 
+    .main-intro
+        width: 100%
+        border-bottom: 1px dotted rgb(242, 195, 20)
+        padding-bottom: 30px
+        margin-bottom: 30px
+        +breakpoint(935px)
+            width: 65%
+            padding-right: 30px
+            padding-bottom: 0
+            margin-bottom: 0
+            margin-right: 30px
+            border-right: 1px dotted rgb(242, 195, 20)
+            border-bottom: none 
+
+
+    .email-form
+        width: 100%
+        +breakpoint(935px)
+            width: 29%
+            h3 
+                font-size: 18px
+        form
+            padding-top: 20px 
+            padding-bottom: 20px 
+            border-top: 1px solid #ffffff
+            border-bottom: 1px solid #ffffff
+            label 
+                color: #999999
+        a.facebook
+            text-align: center
+            display: block 
+            margin-top: 10px
+            color: #ffffff
+            i 
+                color: rgb(242, 195, 20)
+
+
+    h3 
+        color: rgb(242, 195, 20)
+        font-size: 22px
+        margin-bottom: 30px

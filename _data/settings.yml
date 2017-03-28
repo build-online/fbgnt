@@ -7,15 +7,15 @@ church_email: pastortaylorhbc@yahoo.com
 facebook: 'https://www.facebook.com/hartwellbaptistchurch'
 twitter: 'https://twitter.com/DrKeithTaylorSr'
 youtube:
-address: 8222 Monon Avenue
+address: Waldenburger Str. 9
 address2:
-City: Cincinnati
-State: OH
-Zip: '45216'
+City: Neutraubling
+State: 
+Zip: '93073'
 main_blog_image: /uploads/1.jpg
 main_sermon_image: /uploads/2.jpg
 default_calendar_image: /uploads/hartwell.jpg
-lattitude: '39.210653'
-longitude: '-84.472477'
+lattitude: '48.99105'
+longitude: '12.20019'
 map_zoom_level: 14
 Google_calendar_id: leonhart4@gmail.com
