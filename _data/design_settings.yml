@@ -1,6 +1,6 @@
 main_dark_color: '#1A2E3D'
 main_light_color: '#e8e4db'
-main_bright_color: '#8F1A1E'
+main_bright_color: '#D84352'
 secondary_bright_color: '#FCD72C'
 main_font: "'Roboto', sans-serif"
 main_font_import_code: "@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700');"

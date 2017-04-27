@@ -1,0 +1,20 @@
+<nav id="menu">
+    {% include menu.html %}
+</nav>
+<main id="panel">
+<div class="wrapper">
+  <div class="navigation">
+  <div class="nav-wrapper">
+    <a href="#" class="logo"><img src="http://sitesforchurch.s3.amazonaws.com/logo-3.png" alt=""></a>
+    {% if page.title == 'home' %}
+    <ul class="desktop-links">
+      <li><a href="{{ site.url }}/#start">Start</a></li>
+      <li><a href="{{ site.url }}/#warum">Warum?</a></li>
+      <li><a href="{{ site.url }}/#evangelium">Evangelium</a></li>
+      <li><a href="{{ site.url }}/#leitung">Leitung</a></li>
+      <li><a href="{{ site.url }}/#glaube">Glaube</a></li>
+    </ul><!--/desktop-links-->
+    {% endif %}
+    <a class="toggle-button button" href="#"><i class="fa fa-bars"></i> MENU </a><!--/mobile-links-->
+    </div><!--/nav-wrapper-->
+  </div><!--/.navigation-->

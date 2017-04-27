@@ -1,24 +1,33 @@
 {% assign settings = site.data.settings %}
 <div class="footer">
   <div class="text">
-      <h4>Contact Us</h4>
-      <h5>By Mail:</h5>
+    <div class="row small-up-1 medium-up-2">
+      <div class="column section">
+      <h4>Kontakt</h4>
+      <h5>Post:</h5>
       <p>{{ settings.address }} <br>
         {% if settings.address2 %} {{settings.address2}}<br> {% endif%}
       {{ settings.City }}, {{ settings.State }} {{ settings.Zip }}</p>
-      <h5>By Phone:</h5>
+      <h5>Telefon:</h5>
       <p>{{ settings.phone }}</p>
-      <h5>By Email:</h5>
+      <h5>E-Mail:</h5>
       <p>{{ settings.church_email }}</p>
+      </div><!--/column section-->
+      <div class="column section editable">
+        <h4>Impressum</h4>
+        <p>Information: Mit dem Urteil vom 12. Mai 1998 hat das Landgericht Hamburg entschieden, dass man durch die Ausbringung eines Links die Inhalte der gelinkten Seite ggf. mit zu verantworten hat. Dies kann, so das LG, nur dadurch verhindert werden, indem man sich ausdrücklich von diesen Inhalten distanziert. Wir haben auf unseren Seiten Links zu anderen Seiten im Internet gelegt.</p>
+        <p>Für alle diese Links gilt: Wir erklären ausdrücklich, dass wir keinerlei Einfluss auf die Gestaltung und die Inhalte der gelinkten externen Seiten haben. Deshalb distanzieren wir uns hiermit ausdrücklich von den Inhalten aller gelinkten, externen Seiten auf unserer Homepage und machen uns diese Inhalte nicht zu Eigen. Diese Erklärung gilt für alle auf unserer Homepage angezeigten Links, deren Inhalte klar nicht zu diesem Homepage-Projekt gehören!</p>
+      </div><!--/column section-->
+    </div><!--/row-->
   </div><!--/text-->
 </div><!--/footer-->
 <div class="second-footer">
   <ul class="menu">
-    <li><a href="#panel"> <i class="fa fa-angle-double-up"></i>Top</a></li>
-    <li><a href="#">Plan A Visit</a></li>
-    <li><a href="#">The Gospel</a></li>
-    <li><a href="#">Statement of Faith</a></li>
-    <li><a href="#">Manage</a></li>
+    <li><a href="#panel"> <i class="fa fa-angle-double-up"></i>Oben</a></li>
+    <li><a href="{{ site.url }}/#warum">Warum?</a></li>
+      <li><a href="{{ site.url }}/#evangelium">Evangelium</a></li>
+      <li><a href="{{ site.url }}/#leitung">Leitung</a></li>
+      <li><a href="{{ site.url }}/#glaube">Glaube</a></li>
   </ul><!--/menu-->
-  <p class="copyright"> <a href="http://sitesfor.church"> &copy;Sitesfor.church/Myonepage.site</a></p>
+  <p class="copyright"> <a href="http://simplechurchtools.com"> &copy;SimpleChurchTools.com</a></p>
 </div><!--/second-footer-->

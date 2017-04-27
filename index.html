@@ -1,27 +1,31 @@
 ---
 layout: home
+title: home
 main_image: /uploads/hero.jpg
+beliefs:
+  - heading: 1. ALLE MENSCHEN HABEN GESÜNDIGT
+    text_html: '<p><strong>Römer 3, 23:</strong> <em>„denn alle haben gesündigt und verfehlen die Herrlichkeit, die sie vor Gott haben sollten.“</em></p>
+    <p>Unsere Sünde trennt uns von Gott, denn Gott ist heilig, und kann unsere Sünde nicht tolerieren.</p>'
+  - heading: 2. JEDER MENSCH HAT EINE STRAFE FÜR SEINE SÜNDEN VERDIENT
+    text_html: '<p><strong>Römer 6, 23a:</strong> <em>„Denn der Lohn der Sünde ist der Tod...“</em></p>
+    <p>Sünde ist Teil unserer Neigung, unserer Natur. Jeder Mensch sündigt und jeder Mensch ist durch seine Sünde verurteilt.</p>
+    <p>Jeder Mensch entscheidet sich selbst Sünden zu begehen und jeder entscheidet sich selbst für die Strafe, die mit der Sünde einhergeht. Dieser Lohn – der Tod – ist nicht nur physisches Sterben, sondern auch ein geistlicher Tod – mit ewiger Trennung von Gott, an dem Ort den Jesus als Hölle beschreibt.</p>'
+  - heading: 3. JESUS HAT DIE STRAFE FÜR ALLE MENSCHEN BEZAHLT
+    text_html: '<p><strong>Römer 5, 8:</strong> <em>„Gott aber beweist seine Liebe zu uns dadurch, dass Christus für uns gestorben ist, als wir noch Sünder waren.“</em></p>
+    <p>Jesus ist für uns gestorben. Weil er für uns gestorben ist, müssen wir nicht ewigen Tod erleiden.</p>'
+  - heading: 4. WAS JESUS GETAN HAT, IST EIN GESCHENK, DASS WIR NICHT VERDIENEN KÖNNEN
+    text_html: '<p><strong>Römer 6, 23b:</strong> <em>„...die Gnadengabe Gottes ist das ewige Leben in Christus Jesus, unserem Herrn.“</em></p>
+    <p><strong>Epheser 2, 8-9:</strong> <em>„Denn aus Gnade seid ihr errettet durch den Glauben, und das nicht aus euch — Gottes Gabe ist es; nicht aus Werken, damit niemand sich rühme.“</em></p>
+    <p>Religion kann uns nicht vor dem ewigen Sterben retten. Unsere Tugenden und guten Werke können es auch nicht. Nur Jesus kann es. Wir müssen nur an Ihn und Sein Werk für uns glauben.</p>'
+  - heading: 5. ALLE MENSCHEN MÜSSEN JESUS ANRUFEN
+    text_html: '<p><strong>Römer 10, 13:</strong> <em>„Jeder, der den Namen des Herrn anruft, wird gerettet werden.“</em></p>
+    <br>
+    <p><strong>Epheser 2, 8-9:</strong> <em>„Denn aus Gnade seid ihr errettet durch den Glauben, und das nicht aus euch — Gottes Gabe ist es; nicht aus Werken, damit niemand sich rühme.“</em></p>
+    <p>Unsere Lebensfragen werden nur von Jesus und seinem Wort beantwortet. Wenn Sie diese Wahrheit kennen und verstehen, dann sagen Sie Gott im Gebet, dass Sie Sein Geschenk annehmen möchten. Bitten Sie Ihn um Vergebung Ihrer Schuld und nehmen Sie Seinen Sohn Jesus als Ihren Retter an.</p>
+    <p>Mit dieser Entscheidung haben Sie die wichtigste Lebensfrage beantwortet.</p>
+    <p>Was kommt für ein Kind Gottes dem irdischen Leben…? Ewiges Leben mit Jesus!</p>'
+  
 ---
-{% assign settings = settings.data.settings %}
-<nav id="menu">
-    {% include menu.html %}
-</nav>
-<main id="panel">
-<div class="wrapper">
-  <div class="navigation">
-  <div class="nav-wrapper">
-    <a href="#" class="logo"><img src="http://www.fbgnt.de/themes/bob/images/logo.png" alt=""></a>
-    
-    <ul class="desktop-links">
-      <li><a href="#">Start</a></li>
-      <li><a href="#">Warum?</a></li>
-      <li><a href="#">Evangelium</a></li>
-      <li><a href="#">Leitung</a></li>
-      <li><a href="#">Glaube</a></li>
-    </ul><!--/desktop-links-->
-    <a class="toggle-button button" href="#"><i class="fa fa-bars"></i> MENU </a><!--/mobile-links-->
-    </div><!--/nav-wrapper-->
-  </div><!--/.navigation-->
   <div class="hero" style="background: url({{page.main_image}}) no-repeat center center; background-size: cover;">
       <div class="headerHero editable">
         <h2>Jesus im Mittelpunkt</h2>
@@ -29,28 +33,26 @@ main_image: /uploads/hero.jpg
       </div><!--/header-hero-->
   </div><!--/hero-->
   <div class="intro-bar">
+  <div class="wrapper">
   <div class="main-intro editable">
-    <h3>Es gibt eine bibeltreue Gemeinde in Neutraubling!</h3>
+    <h3 id="start">Es gibt eine bibeltreue Gemeinde in Neutraubling!</h3>
     <p>Im Zentrum von Neutraubling findet man unsere Gemeinde in der Waldenburgerstr. 9.</p>
     <p>Wir treffen uns für den Gottesdienst jeden Sonntag um 10.00 Uhr, und am Donnerstag um 18.30 Uhr treffen wir uns für unsere Bibelstunde. Es gibt eine Kinderbetreuung für beide Tage!</p>
     <p>Wir freuen uns auf Ihren Besuch!</p>
   </div><!--/main-intro-->
   <div class="email-form">
     <h3 class="editable">Falls Sie Information über uns erhalten wollen, melden Sie sich bitte hier an:</h3>
-    <!-- Begin MailChimp Signup Form -->
-    <form action="//online.us15.list-manage.com/subscribe/post?u=d273b8ec5bd148b8b5db55c8b&amp;id=6c9b8f1d09" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-      <div id="mc_embed_signup_scroll">
-    <input type="text" value="" name="NAME" class="name" id="mce-NAME" placeholder="Name" required>
-    <input type="tel" value="" name="TEL" class="tel" id="mce-TEL" placeholder="Telefon" required>
-    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="E-Mail" required>
-      <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-      <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_d273b8ec5bd148b8b5db55c8b_6c9b8f1d09" tabindex="-1" value=""></div>
-      <div class="clear"><input type="submit" value="Absenden" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-      </div>
-  </form>
+  <form action="https://formspree.io/bkjradank@gmail.com"
+      method="POST">
+    <input type="text" name="name" placeholder="Name">
+    <input type="email" name="_replyto" placeholder="E-Mail">
+    <input type="tel" name="telephone" placeholder="Telefon">
+    <input type="submit" value="Absenden">
+</form>
   <a href="#" class="facebook"><i class="fa fa-facebook-square"></i> Finde uns auf Facebook</a> 
     <!--End mc_embed_signup-->
   </div><!--/email-form-->
+  </div><!--/wrapper-->
   </div><!--/intro-bar-->
   {% include map.html %}
   <div class="main-text">
@@ -62,7 +64,93 @@ main_image: /uploads/hero.jpg
       <p><em>Denn Gott, der dem Licht gebot, aus der Finsternis hervorzuleuchten, er hat es auch in unseren Herzen licht werden lassen, damit wir erleuchtet werden mit der Erkenntnis der Herrlichkeit Gottes im Angesicht Jesu Christi.</em> - <strong>2. Korinther 4, 6</strong></p>
       <hr>
     </div><!--/grube-->
+  <div class="warum">
+    <h3 id="warum">Warum eine neue Gemeinde in Neutraubling?</h3>
+    <p>Es gibt viele Religionen in Deutschland. Viele Kirchen sind überall in der Oberpfalz gebaut worden. Warum braucht diese Region noch eine Kirchengemeinde?</p>
+    <div class="section">
+      <div class="text editable">
+        <h4>Weil die Bibel notwendig ist –</h4>
+        <p>Die Freie Baptisten Gemeinde Neutraubling ist eine bibeltreue Gemeinde.</p>
+        <p>Unsere Glaubens – und Lebensgrundlage ist nur die Bibel.</p>
+      </div><!--/text-->
+      <img src="http://sitesforchurch.s3.amazonaws.com/Bible2.jpg" alt="" class="editable">
+    </div><!--/section-->
+    <div class="section">
+      <div class="text editable">
+        <h4>Weil biblische Predigten notwendig sind –</h4>
+        <p>Mit unseren Predigten aus dem Wort Gottes, wollen wir Sie persönlich und direkt mit mitfühlenden Worten ermutigen.</p>
+      </div><!--/text-->
+      <img src="http://sitesforchurch.s3.amazonaws.com/Bible2_2.jpg" alt="" class="editable">
+    </div><!--/section-->
+    <div class="section">
+      <div class="text editable">
+        <h4>Weil die Kirchengemeinde von dem Staat getrennt sein soll –</h4>
+        <p>Unsere Gemeinde ist eigenständig und unabhängig vom Staat und anderen Organisationen.</p>
+        <p>Sie finanziert sich ausschließlich aus freiwilligen Beiträgen der Mitglieder.</p>
+      </div><!--/text-->
+      <img src="http://sitesforchurch.s3.amazonaws.com/state.jpg" alt="" class="editable">
+    </div><!--/section-->
+    <div class="section">
+      <div class="text editable">
+        <h4>Weil Menschen den richtigen Weg zu Gott brauchen –</h4>
+        <p>Jedes Mitglied in unserer Gemeinde hat sich frei für Jesus entschieden. Wir praktizieren die Glaubenstaufe durch das Untertauchen. Diese Glaubenstaufe ist für die Errettung nicht wichtig.</p>
+        <p>Wir glauben auch, dass Jesus das Haupt in der Gemeinde ist. Alle können durch Jesus Christus einen direkten Zugang zu Gott haben, weil Jesus durch den Tod am Kreuz einen Weg möglich gemacht hat.</p>
+      </div><!--/text-->
+      <img src="http://sitesforchurch.s3.amazonaws.com/people.jpg" alt="" class="editable">
+    </div><!--/section-->
+    <hr>
+  </div><!--/warum-->
+  <div class="derweg">
+    <h3 id="evangelium">Der Weg zum Himmel</h3>
+    <p>Auf unserem Weg durchs Leben begegnen uns viele Fragen. Oft glauben wir, dass es viele Möglichkeiten gibt, Antworten auf unsere Lebensfragen zu finden. Gibt es eine richtige Antwort? Und woher nehmen wir sie? Woher nehmen wir die Antworten? Auf Fragen der Religion, der Philosophie, der Politik?</p>
+    <p>Im Grunde gibt es nur zwei Möglichkeiten: Man bekommt Antworten aus menschlicher Sicht, oder aus Gottes Wort. Die wichtigste Frage unseres Lebens ist „Was kommt nach meinem Leben?“ Für diese Frage gibt es eine Antwort in Gottes Wort. Sein Wort ist maßgebend für unser Leben. Was sagt Gottes Wort – die Bibel – über unser irdisches Leben und über das Leben nach dem Tod? Es gibt fünf Punkte, die alle Menschen verstehen müssen:</p>
+  <div class="beliefs">
+    <div class="row small-up-1 medium-up-3 large-up-5 belief-sections">
+      {% for section in page.beliefs %}
+      <div class="column section"><h3>{{section.heading}}</h3> {{section.text_html | raw}}</div><!--/column-->
+      {% endfor %}
+    </div><!--/row small-up etc.-->
+  </div><!--/beliefs-->
+  </div><!--/derweg-->
+  <div class="meet-pastor">
+  {% if site.leaders > 1 %}
+    <h2 class="editable" id="leitung">Über die Gemeindeleitung</h2>
+{% else %}
+<h2 class="editable" id="leitung">Über die Gemeindeleitung</h2>
+{% endif %}
+  {% for leader in site.leaders %}
+  <div class="leader">
+  <div class="image">
+  <img src="{{ leader.Thumbnail_path }}" alt="{{leader.Name}}" />
+  <p></p>
+  </div><!--/image-->
+  <div class="text">
+  <h3>{{leader.Name}}</h3>
+  <ul class="social-menu">
+    {% if  leader.Twitter %}
+    <li><a href="{{leader.twitter}}">{% include twitter.svg %}</a></li>{% endif %}
+    {% if  leader.Facebook %}
+    <li><a href="{{leader.facebook}}">{% include facebook.svg %}</a></li>{% endif %}
+    {% if  leader.Email %}
+    <li><a href="{{leader.email}}">{% include email.svg %}</a></li>{% endif %}
+  </ul>  
+  {{ leader.content | truncatewords: 40 }}
+  <br />
+  <a href="{{leader.url}}" class="button">Weiterlesen</a>
+  </div><!--/text-->
+  </div><!--/leader--> 
+  {% endfor %}
+</div><!--/Meet-pastor-->
+<div class="glauben">
+    <h3 id="glaube">Was glauben wir?</h3>
+    <p>Hier finden Sie einen Teil von unserem Glaubensbekenntnis. Wenn Sie mehr Informationen über unseren Glauben wollen, bitte hier klicken</p>
+  <div class="beliefs">
+    <div class="row small-up-1 medium-up-2 large-up-4 belief-sections">
+      {% for section in site.beliefs limit:4 %}
+      <div class="column section"><h3><i class="fa {{ section.icon }}"></i> {{section.Name}}</h3> {{section.content |  markdownify }}</div><!--/column-->
+      {% endfor %}
+    </div><!--/row small-up etc.-->
+  </div><!--/beliefs-->
+  <div class="button-wrapper"><a href="#" class="button">View All Beliefs</a></div><!--/button-wrapper-->
+  </div><!--/glauben-->
   </div><!--/main-text-->
-{% include footer.html %}
-</div><!--/wrapper-->
-</main><!--/#panel-->

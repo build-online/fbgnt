@@ -35,21 +35,6 @@ keep_files:
 collections:
   leaders:
     output: true
-  photo_gallery:
-    output: false
-    _hide_content: true
-  services:
-    output: false
-    _hide_content: true
-  sermons:
-    output: true
-    _hide_content: true 
-  series:
-    output: true
-    _hide_content: true 
-  speakers: 
-    output: false
-    _hide_content: true 
   beliefs:
     output: false
   events:
